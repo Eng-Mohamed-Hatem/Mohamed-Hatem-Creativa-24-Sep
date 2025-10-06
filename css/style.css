@@ -1,0 +1,33 @@
+
+.card {
+    border-radius: 3%;
+    box-sizing: border-box;
+    width: 33%;
+    border-style: solid ;
+    display: inline-block;
+}
+
+.card img {
+    width: auto%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+.card .card-body {
+    padding: 10px;
+}
+.card .button {
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    margin: 2%;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+}
+.card .button-1 {
+   background-color: rgb(12, 11, 11);
+   color: rgb(255, 255, 255);
+    padding: 2%;
+    border-radius: 8px;
+    cursor: pointer;
+}
