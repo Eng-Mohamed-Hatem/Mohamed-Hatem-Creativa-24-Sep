@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    background-color: #242222;
+    color: white;
+}
+.nav-links {
+    list-style: none;
+    display: inline-block;
+    padding-left: 1%;
+    width: 40%;
+    margin-left: 50%;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 20px;
+    margin: 1%;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.logo {
+       display: inline-block; 
+}
+.hero {
+    background-image: url(https://1.bp.blogspot.com/-YugD5EEDpos/WNgBnFz2gEI/AAAAAAAAs_M/0qTkAE2xUuUKvlBvqXFdljeDv_VNR94pwCLcB/s640/1422-9.jpg);
+    padding: 15% 0% 10% 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.h2 {
+    width: 50%;
+}
+.h3 {
+    width: 50%;
+}
+
+.heading {
+    text-align: center;
+    margin: 3% 0%;
+    font-size: 25px;
+}
+
+.card {
+    width: 90%;
+    margin: auto;
+}
+.card-body {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 30%;
+    float: left;
+    background-color: #575555;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 2%;
+    overflow: hidden; /* لإخفاء أي جزء زائد من الصورة */
+    margin-bottom: 109px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* .cards:hover+ .card-body{
+    background: red;
+} */
+
+.badge {
+    background-color: #76e759;
+    color: white;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 15px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    right: 5px;
+    padding-top: 4%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-content {
+    padding: 3%;  
+}
+
+.card-body.margin {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.card-img {
+    width: 100%;
+    height: 337px;
+    border-radius: 3%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    padding-top: 41%;
+    padding-left: 27%;
+    /* align-items: center;
+    justify-content: center; */
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(58, 58, 58, 0.85); */
+}
+
+.card-body:hover .overlay {
+    background-color: #3A3A3A;
+    opacity: 0.8;
+    transition: 0.5s ease
+}
+.btn {
+    background-color: #FFFFFF;
+    color: #B88E2F;
+    padding: 3%;
+    margin-bottom: 3%;
+    border-style: solid;
+    display: block;
+    /* justify-content: center;
+    align-items: center; */
+    padding-right: 26%;
+    padding-left: 25%;
+}
+
+
+.overlay i, 
+.overlay span {
+  color: #fff;
+  font-size: 14px;
+  margin: 0 5px;
+}
