@@ -269,7 +269,7 @@ nav ul {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 25px;
+      
     }
 
     .service-card {
@@ -323,3 +323,4 @@ nav ul {
     .service-card.active p {
       color: #f0f0f0;
     }
+
