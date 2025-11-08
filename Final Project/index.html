@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+<body>
+    
+    <!-- header -->
+
+  <header class="header-section">
+    <nav class="navbar navbar-expand-lg main-navbar fixed-top">
+        <div class="container">
+            
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainMenuOffcanvas" aria-controls="mainMenuOffcanvas" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/logo.svg" alt="Doccure Logo" class="header-logo">
+            </div>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="mainMenuOffcanvas" aria-labelledby="mainMenuOffcanvasLabel">
+                
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="mainMenuOffcanvasLabel">DOCCURE</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                
+                <div class="offcanvas-body">
+                    
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 main-nav">
+                        
+                        <li class="nav-item has-submenu dropdown active">
+                            <a class="nav-link  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Home <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">General Home 1</a></li>
+                                <li><a class="dropdown-item active" href="#">General Home 2</a></li>
+                                <li><a class="dropdown-item" href="#">General Home 3</a></li>
+                                <li><a class="dropdown-item" href="#">General Home 4</a></li>
+                                <li><a class="dropdown-item" href="#">Cardiology</a></li>
+                                <li><a class="dropdown-item" href="#">Eyecare</a></li>
+                                <li><a class="dropdown-item" href="#">Veterinary</a></li>
+                                <li><a class="dropdown-item" href="#">Pediatric</a></li>
+                                <li><a class="dropdown-item" href="#">Fertility</a></li>
+                                <li><a class="dropdown-item" href="#">ENT</a></li>
+                                <li><a class="dropdown-item" href="#">Cosmetics</a></li>
+                                <li><a class="dropdown-item" href="#">Lab Test</a></li>
+                                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+                                <li><a class="dropdown-item" href="#">Home Care</a></li>
+                                <li><a class="dropdown-item" href="#">Dentists</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item has-submenu dropdown">
+                            <a class="nav-link  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Doctors <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Doctor-Profile.html">Doctor Profile</a></li>
+                                <li><a class="dropdown-item" href="Profile-Settings.html">Profile Settings</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item has-submenu dropdown">
+                            <a class="nav-link  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Patients <i class="fas fa-chevron-down"></i>
+                            </a>
+                             <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Patient List</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item has-submenu dropdown">
+                            <a class="nav-link  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pharmacy <i class="fas fa-chevron-down"></i>
+                            </a>
+                             <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Pharmacy Shop</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item has-submenu dropdown">
+                            <a class="nav-link  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages <i class="fas fa-chevron-down"></i>
+                            </a>
+                             <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">About Us</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item has-submenu dropdown">
+                            <a class="nav-link  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog <i class="fas fa-chevron-down"></i>
+                            </a>
+                             <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item has-submenu dropdown">
+                            <a class="nav-link  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Admin <i class="fas fa-chevron-down"></i>
+                            </a>
+                             <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Admin</a></li>
+                                <li><a class="dropdown-item" href="#">Pharmacy Admin</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <ul class="nav header-navbar">
+                        <li class="register-btn">
+                            <a class="btn btn-dark reg-btn" href="#">Register</a>
+                        </li>
+                        <li class="register-btn">
+                            <a class="btn btn-primary log-btn" href="#">Login</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- section 1 -->
+   <section class="hero-section-one">
+    <div class="container">
+        <div class="row align-items-center">
+            
+            <div class="col-lg-6">
+                <div class="hero-content-one">
+                    <h2 class="hero-title-one">
+                        Consult <span>Best Doctors</span> 
+                        <img class="title-svg-one" src="data:image/svg+xml,%3csvg%20width='66'%20height='34'%20viewBox='0%200%2066%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3857_28137)'%3e%3cpath%20opacity='0.32'%20d='M49.9989%2032.8291V24.7091H41.8789V16.9091H49.9989V8.78906H57.7989V16.9091H65.9189V24.7091H57.7989V32.8291H49.9989Z'%20fill='%233B9CF6'/%3e%3cpath%20opacity='0.87'%20d='M23.3313%2033.44V22.15H12.0312V11.29H23.3313V0H34.1813V11.29H45.4713V22.15H34.1813V33.44H23.3313Z'%20fill='%230E82FD'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3857_28137'%3e%3crect%20width='65.92'%20height='33.44'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="icon">
+                         <div>Your Nearby Location.</div>
+                    </h2>
+                    <p class="hero-subtitle-one">Embark on your healing journey with Doccure</p>
+                    <a href="#" class="btn btn-start-consult-one">Start a Consult</a>
+                    <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/down-arrow-img.png" alt="arrow" class="hero-arrow-one">
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="hero-image-container-one">
+                    <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/banner-img.png" class="img-fluid hero-img-one" alt="Doctor Placeholder">
+                    
+                    <div class="floating-card-one card-checkup-one">
+                        <i class="fas fa-check-square"></i> Regular Check-up
+                    </div>
+
+                    <div class="floating-card-one card-profile-one">
+                        <div><img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/banner/banner-img2.svg" class="img-hero-left" alt="doc"></div>
+                        <!-- <div>
+                            <h6>John Doe</h6>
+                            <p>MBBS, Cardiologist</p>
+                            <a href="#">Book Now</a>
+                        </div> -->
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="search-bar-one">
+            <form action="#" class="row g-0">
+                <div class="col-md-4 col-sm-6">
+                    <input type="text" class="form-control" placeholder="Search doctors, clinics, hospitals, etc.">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <input type="text" class="form-control" placeholder="Location">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <input type="text" id="datepicker-from" class="form-control" placeholder="From">
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <button type="submit" class="btn btn-search-one w-100">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+     <!-- section 2 -->
+    <section class="services-section">
+    <div class="container">
+        <div class="row justify-content-center g-4">
+            
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <a href="#" class="service-card card-purple">
+                    <div class="service-icon icon-purple">
+                        <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/icons/service-01.svg"  alt="">
+                        
+                    </div>
+                    <h5>Book Appointment</h5>
+                </a>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <a href="#" class="service-card card-light-green">
+                    <div class="service-icon icon-light-green">
+                        <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/icons/service-02.svg" alt="">
+                        
+                    </div>
+                    <h5>Lab Testing Services</h5>
+                </a>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <a href="#" class="service-card card-light-blue">
+                    <div class="service-icon icon-light-blue">
+                        <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/icons/service-03.svg" alt="">
+                        
+                    </div>
+                    <h5>Medicines & Supplies</h5>
+                </a>
+            </div>
+            
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <a href="#" class="service-card card-red">
+                    <div class="service-icon icon-red">
+                        <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/icons/service-03.svg" alt="">
+                        
+                    </div>
+                    <h5>Hospitals / Clinics</h5>
+                </a>
+            </div>
+            
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <a href="#" class="service-card card-dark-green">
+                    <div class="service-icon icon-dark-green">
+                        <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/icons/service-04.svg" alt="">
+                        
+                    </div>
+                    <h5>Health Care Services</h5>
+                </a>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <a href="#" class="service-card card-pink">
+                    <div class="service-icon icon-pink">
+                        <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/icons/service-06.svg" alt="">
+                        
+                    </div>
+                    <h5>Talk to Doctor's</h5>
+                </a>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <a href="#" class="service-card card-orange">
+                    <div class="service-icon icon-orange">
+                        <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/icons/service-07.svg" alt="">
+                    </div>
+                    <h5>Home Care Services</h5>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- section 3 -->
+
+   <section class="specialities-section">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-6 col-7">
+                <div class="section-header-one section-header-slider">
+                    <h2 class="section-title">
+                        Specialities
+                        <img class="title-svg-three" src="data:image/svg+xml,%3csvg%20width='66'%20height='34'%20viewBox='0%200%2066%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3857_28137)'%3e%3cpath%20opacity='0.32'%20d='M49.9989%2032.8291V24.7091H41.8789V16.9091H49.9989V8.78906H57.7989V16.9091H65.9189V24.7091H57.7989V32.8291H49.9989Z'%20fill='%233B9CF6'/%3e%3cpath%20opacity='0.87'%20d='M23.3313%2033.44V22.15H12.0312V11.29H23.3313V0H34.1813V11.29H45.4713V22.15H34.1813V33.44H23.3313Z'%20fill='%230E82FD'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3857_28137'%3e%3crect%20width='65.92'%20height='33.44'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="icon">
+                    </h2>
+                </div>
+            </div>
+            <div class="col-md-6 col-5">
+                <div class="slide-nav-1 text-end nav-control">
+                    <button class="owl-prev" type="button" data-bs-target="#specialitiesCarousel" data-bs-slide="prev">
+                        <i class="fas fa-chevron-left custom-arrow"></i>
+                    </button>
+                    <button class="owl-next" type="button" data-bs-target="#specialitiesCarousel" data-bs-slide="next">
+                        <i class="fas fa-chevron-right custom-arrow"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="specialitiesCarousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <div class="row g-4">
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                    <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-03.svg" alt="">
+                                </div>
+                                <p>Urology</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                    <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-04.svg" alt="">
+                                    
+                                </div>
+                                <p>Orthopedic</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                    <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-05.svg" alt="">
+                                    
+                                </div>
+                                <p>Dentist</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                    <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-06.svg" alt="">
+                                    
+                                </div>
+                                <p>Ophthalmology</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                    <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-02.svg" alt="">
+                                   
+                                </div>
+                                <p>Neurology</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                    <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-01.svg" alt="">
+                                    
+                                </div>
+                                <p>Cardiology</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row g-4">
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                    <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-03.svg" alt="">
+                                    
+                                </div>
+                                <p>Urology</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                    <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-04.svg" alt="">
+                                    
+                                </div>
+                                <p>Orthopedic</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-05.svg" alt="">
+
+                                </div>
+                                <p>Dentist</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                    <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-06.svg" alt="">
+                                    
+                                </div>
+                                <p>Ophthalmology</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-02.svg" alt="">
+                                    
+                                </div>
+                                <p>Neurology</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-01.svg" alt="">
+                                    
+                                </div>
+                                <p>Cardiology</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="specialities-btn text-center mt-5">
+             <a href="#" class="btn btn-see-all">See All Specialities</a>
+        </div>
+
+    </div>
+
+</section>
+
+     <div class="owl-carousel">
+  
+
+          <div class="">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-01.svg" alt="">
+
+                                </div>
+                                <p>Cardiology</p>
+                            </a>
+                        </div>
+
+                          <div class="">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-01.svg" alt="">
+                                    
+                                </div>
+                                <p>Cardiology</p>
+                            </a>
+                        </div>
+
+                          <div class="">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-01.svg" alt="">
+                                    
+                                </div>
+                                <p>Cardiology</p>
+                            </a>
+                        </div>
+
+                          <div class="">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-01.svg" alt="">
+                                    
+                                </div>
+                                <p>Cardiology</p>
+                            </a>
+                        </div>
+
+                              <div class="">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-01.svg" alt="">
+                                    
+                                </div>
+                                <p>Cardiology</p>
+                            </a>
+                        </div>
+
+                              <div class="">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-01.svg" alt="">
+                                    
+                                </div>
+                                <p>Cardiology</p>
+                            </a>
+                        </div>
+
+                              <div class="">
+                            <a href="#" class="speciality-card">
+                                <div class="speciality-icon">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/specialities/specialities-01.svg" alt="">
+                                    
+                                </div>
+                                <p>Cardiology</p>
+                            </a>
+                        </div>
+</div>
+
+<!-- section 4 -->
+
+<section class="doctors-section-four">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 class="section-title-four">
+                    Best Doctors 
+                    <img class="title-svg-four" src="data:image/svg+xml,%3csvg%20width='66'%20height='34'%20viewBox='0%200%2066%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3857_28137)'%3e%3cpath%20opacity='0.32'%20d='M49.9989%2032.8291V24.7091H41.8789V16.9091H49.9989V8.78906H57.7989V16.9091H65.9189V24.7091H57.7989V32.8291H49.9989Z'%20fill='%233B9CF6'/%3e%3cpath%20opacity='0.87'%20d='M23.3313%2033.44V22.15H12.0312V11.29H23.3313V0H34.1813V11.29H45.4713V22.15H34.1813V33.44H23.3313Z'%20fill='%230E82FD'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3857_28137'%3e%3crect%20width='65.92'%20height='33.44'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="icon">
+                </h2>
+                <div class="title-dot-four"></div>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="doctor-card-four">
+                    <div class="doctor-img-container-four">
+                        <img src="https://doccure.dreamstechnologies.com/html/template/assets/img/doctors/doctor-02.jpg" alt="Dr. Downer">
+                        <span class="price-tag-four">$200</span>
+                    </div>
+                    <div class="doctor-info-four">
+                        <h5 class="doctor-name-four">Dr. Downer</h5>
+                        <p class="doctor-specialty-four">Orthopedic</p>
+                        <div class="rating-four">
+                            <i class="fas fa-star"></i> 4.5 <span class="review-count-four">(35)</span>
+                        </div>
+                    </div>
+                    <div class="doctor-meta-four">
+                        <span>Newyork, USA</span>
+                        <span class="status-four available">Available</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="doctor-card-four">
+                    <div class="doctor-img-container-four">
+                        <img src="https://doccure.dreamstechnologies.com/html/template/assets/img/doctors/doctor-02.jpg" alt="Dr. John Doe">
+                        <span class="price-tag-four">$300</span>
+                    </div>
+                    <div class="doctor-info-four">
+                        <h5 class="doctor-name-four">Dr. John Doe</h5>
+                        <p class="doctor-specialty-four">Dentist</p>
+                        <div class="rating-four">
+                            <i class="fas fa-star"></i> 4.9 <span class="review-count-four">(45)</span>
+                        </div>
+                    </div>
+                    <div class="doctor-meta-four">
+                        <span>Austin, TX</span>
+                        <span class="status-four available">Available</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="doctor-card-four">
+                    <div class="doctor-img-container-four">
+                        <img src="https://doccure.dreamstechnologies.com/html/template/assets/img/doctors/doctor-02.jpg" alt="Dr. Aviles">
+                        <span class="price-tag-four">$100</span>
+                    </div>
+                    <div class="doctor-info-four">
+                        <h5 class="doctor-name-four">Dr. Aviles</h5>
+                        <p class="doctor-specialty-four">Neurology</p>
+                        <div class="rating-four">
+                            <i class="fas fa-star"></i> 4.0 <span class="review-count-four">(20)</span>
+                        </div>
+                    </div>
+                    <div class="doctor-meta-four">
+                        <span>Newyork, USA</span>
+                        <span class="status-four unavailable">Unavailable</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="doctor-card-four">
+                    <div class="doctor-img-container-four">
+                        <img src="https://doccure.dreamstechnologies.com/html/template/assets/img/doctors/doctor-02.jpg" alt="Dr. Palmore">
+                        <span class="price-tag-four">$250</span>
+                    </div>
+                    <div class="doctor-info-four">
+                        <h5 class="doctor-name-four">Dr. Palmore</h5>
+                        <p class="doctor-specialty-four">Immunologist</p>
+                        <div class="rating-four">
+                            <i class="fas fa="star"></i> 4.5 <span class="review-count-four">(35)</span>
+                        </div>
+                    </div>
+                    <div class="doctor-meta-four">
+                        <span>Waipahu, HI</span>
+                        <span class="status-four available">Available</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 5 -->
+ 
+<section class="pricing-section-five">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 class="section-title-five">
+                    Pricing Plan
+                    <img class="title-svg-five" src="data:image/svg+xml,%3csvg%20width='66'%20height='34'%20viewBox='0%200%2066%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3857_28137)'%3e%3cpath%20opacity='0.32'%20d='M49.9989%2032.8291V24.7091H41.8789V16.9091H49.9989V8.78906H57.7989V16.9091H65.9189V24.7091H57.7989V32.8291H49.9989Z'%20fill='%233B9CF6'/%3e%3cpath%20opacity='0.87'%20d='M23.3313%2033.44V22.15H12.0312V11.29H23.3313V0H34.1813V11.29H45.4713V22.15H34.1813V33.44H23.3313Z'%20fill='%230E82FD'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3857_28137'%3e%3crect%20width='65.92'%20height='33.44'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="icon">
+                </h2>
+                
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-stretch g-4">
+
+            <div class="col-lg-4 col-md-6">
+                <div class="pricing-card-five">
+                    <div class="plan-header-five">
+                        <div class="plan-icon-five"><i class="fas fa-user"></i></div>
+                        <h3 class="plan-title-five">Basic</h3>
+                    </div>
+                    <div class="plan-price-five">
+                        <h2>$99 <span class="per-month-five">/monthly</span></h2>
+                    </div>
+                    <div class="plan-features-five">
+                        <h5>What's included</h5>
+                        <ul>
+                            <li><i class="fa-solid fa-circle-check"></i> Profile Creation</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Appointment Booking</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Notification Alerts</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Limited Telemedicine Access</li>
+                        </ul>
+                    </div>
+                    <div class="plan-button-five">
+                        <a href="#" class="btn btn-plan-five">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="pricing-card-five pro-plan-five">
+                    <span class="pro-tag-five">Popular</span>
+                    <div class="plan-header-five">
+                        <div class="plan-icon-five"><i class="fas fa-home"></i></div>
+                        <h3 class="plan-title-five">Pro</h3>
+                    </div>
+                    <div class="plan-price-five">
+                        <h2>$199 <span class="per-month-five">/monthly</span></h2>
+                    </div>
+                    <div class="plan-features-five">
+                        <h5>What's included</h5>
+                        <ul>
+                            <li><i class="fa-solid fa-circle-check"></i> Profile Creation</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Appointment Booking</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Notification Alerts</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Extended Telemedicine Access</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Exclusive Discounts</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Appointment History</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Priority Customer Support</li>
+                        </ul>
+                    </div>
+                    <div class="plan-button-five">
+                        <a href="#" class="btn btn-plan-five">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="pricing-card-five">
+                    <div class="plan-header-five">
+                        <div class="plan-icon-five"><i class="fas fa-building"></i></div>
+                        <h3 class="plan-title-five">Enterprise</h3>
+                    </div>
+                    <div class="plan-price-five">
+                        <h2>$399 <span class="per-month-five">/monthly</span></h2>
+                    </div>
+                    <div class="plan-features-five">
+                        <h5>What's included</h5>
+                        <ul>
+                            <li><i class="fa-solid fa-circle-check"></i> All Basic Plan Features</li>
+                            <li><i class="fa-solid fa-circle-check"></i> All Premium Plan Features</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Personalized Health Insights</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Family Account Management</li>
+                        </ul>
+                    </div>
+                    <div class="plan-button-five">
+                        <a href="#" class="btn btn-plan-five">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Section 6 -->
+
+<section class="how-it-works-section-six">
+    <div class="container">
+        <div class="row align-items-center">
+            
+            <div class="col-lg-3">
+                <div class="doctor-image-container-six">
+                    <img src="image/banner-doctor.svg" class="img-six doctor-img-six" alt="Doctor">
+                </div>
+            </div>
+
+            <div class="col-lg-2">
+            </div>
+            
+            <div class="col-lg-7">
+                <div class="how-it-works-content-six">
+                    <p class="section-subtitle-six">How it Works</p>
+                    <h2 class="section-title-six">
+                        4 easy steps to get your solution
+                        <img class="title-svg-six" src="data:image/svg+xml,%3csvg%20width='66'%20height='34'%20viewBox='0%200%2066%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3857_28137)'%3e%3cpath%20opacity='0.32'%20d='M49.9989%2032.8291V24.7091H41.8789V16.9091H49.9989V8.78906H57.7989V16.9091H65.9189V24.7091H57.7989V32.8291H49.9989Z'%20fill='%233B9CF6'/%3e%3cpath%20opacity='0.87'%20d='M23.3313%2033.44V22.15H12.0312V11.29H23.3313V0H34.1813V11.29H45.4713V22.15H34.1813V33.44H23.3313Z'%20fill='%230E82FD'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3857_28137'%3e%3crect%20width='65.92'%20height='33.44'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="icon">
+                    </h2>
+                    
+                    <div class="row g-4 mt-4">
+                        <div class="col-md-6">
+                            <div class="step-item-six">
+                                <div class="step-icon-six">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="step-content-six">
+                                    <h5>Search Doctor</h5>
+                                    <p>Search for a doctor based on specialization, location, or availability.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="step-item-six">
+                                <div class="step-icon-six">
+                                    <i class="fas fa-id-card"></i>
+                                </div>
+                                <div class="step-content-six">
+                                    <h5>Check Doctor Profile</h5>
+                                    <p>Explore detailed doctor profiles on our platform to make informed healthcare decisions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="step-item-six">
+                                <div class="step-icon-six">
+                                    <i class="fas fa-calendar-check"></i>
+                                </div>
+                                <div class="step-content-six">
+                                    <h5>Schedule Appointment</h5>
+                                    <p>After choose your preferred doctor, select a convenient time slot, & confirm your appointment.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="step-item-six">
+                                <div class="step-icon-six">
+                                    <i class="fas fa-comment-medical"></i>
+                                </div>
+                                <div class="step-content-six">
+                                    <h5>Get Your Solution</h5>
+                                    <p>Discuss your health concerns with the doctor and receive personalized advice & solution.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- section 7 -->
+
+<section class="articles-section-seven">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 class="section-title-seven">
+                    Latest Articles
+                    <img class="title-svg-seven" src="data:image/svg+xml,%3csvg%20width='66'%20height='34'%20viewBox='0%200%2066%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3857_28137)'%3e%3cpath%20opacity='0.32'%20d='M49.9989%2032.8291V24.7091H41.8789V16.9091H49.9989V8.78906H57.7989V16.9091H65.9189V24.7091H57.7989V32.8291H49.9989Z'%20fill='%233B9CF6'/%3e%3cpath%20opacity='0.87'%20d='M23.3313%2033.44V22.15H12.0312V11.29H23.3313V0H34.1813V11.29H45.4713V22.15H34.1813V33.44H23.3313Z'%20fill='%230E82FD'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3857_28137'%3e%3crect%20width='65.92'%20height='33.44'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="icon">
+                </h2>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            
+            <div class="col-lg-6 col-md-6 d-flex">
+                <div class="articles-grid-seven w-100">
+                    <div class="articles-info-seven">
+                        <div class="articles-left-seven">
+                            <a href="#">
+                                <div class="articles-img-seven">
+                                    <img class="img-seven" alt="John Doe" src="image/blog-25.jpg">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="articles-right-seven">
+                            <div class="articles-content-seven">
+                                <ul class="articles-list-seven nav">
+                                    <li></i> John Doe</li>
+                                    <li></i> 13 Aug, 2023</li>
+                                </ul>
+                                <h4><a href="#">Navigating Telehealth: A Guide to Virtual Healthcare Visits</a></h4>
+                                <p>Explore the benefits & challenges of virtual healthcare appointments, along with tips for making good health.</p>
+                                <a class="btn-read-more-seven" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 d-flex">
+                <div class="articles-grid-seven w-100">
+                    <div class="articles-info-seven">
+                        <div class="articles-left-seven">
+                            <a href="#">
+                                <div class="articles-img-seven">
+                                    <img class="img-seven" alt="Darren Elder" src="image/blog-25.jpg">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="articles-right-seven">
+                            <div class="articles-content-seven">
+                                <ul class="articles-list-seven nav">
+                                    <li></i> Darren Elder</li>
+                                    <li></i> 10 Sep, 2023</li>
+                                </ul>
+                                <h4><a href="#">Work-Life Harmony: Balancing Career and Personal Wellness</a></h4>
+                                <p>Uncover strategies to achieve a harmonious balance between professional commitments and personal well-being.</p>
+                                <a class="btn-read-more-seven" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 d-flex">
+                <div class="articles-grid-seven w-100">
+                    <div class="articles-info-seven">
+                        <div class="articles-left-seven">
+                            <a href="#">
+                                <div class="articles-img-seven">
+                                    <img class="img-seven" alt="Ruby Perrin" src="image/blog-25.jpg">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="articles-right-seven">
+                            <div class="articles-content-seven">
+                                <ul class="articles-list-seven nav">
+                                    <li></i> Ruby Perrin</li>
+                                    <li></i> 30 Oct, 2023</li>
+                                </ul>
+                                <h4><a href="#">Sleep Solutions: Unveiling the Secrets to a Restful Night</a></h4>
+                                <p>Explore importance of quality sleep & learn tips to improve your sleep, ensuring you wake up refreshed & ready to face the day.</p>
+                                <a class="btn-read-more-seven" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 d-flex">
+                <div class="articles-grid-seven w-100">
+                    <div class="articles-info-seven">
+                        <div class="articles-left-seven">
+                            <a href="#">
+                                <div class="articles-img-seven">
+                                    <img class="img-seven" alt="Sofia Brient" src="image/blog-25.jpg">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="articles-right-seven">
+                            <div class="articles-content-seven">
+                                <ul class="articles-list-seven nav">
+                                    <li></i> Sofia Brient</li>
+                                    <li></i> 08 Nov, 2023</li>
+                                </ul>
+                                <h4><a href="#">Mental Wellness in a Digital Age: Strategies for a Healthy Mind Online</a></h4>
+                                <p>Delve into the impact of digital life on mental health & discover practical strategies to maintain mental well-being.</p>
+                                <a class="btn-read-more-seven" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Section 8 -->
+
+<section class="app-section pt-0">
+    <div class="container">
+        <div class="app-bg">
+            <div class="row align-items-end">
+                
+                <div class="col-lg-6 col-md-12">
+                    <div class="app-content">
+                        <div class="app-header">
+                            <h5>Working for Your Better Health.</h5>
+                            <h2>Download the Doccure App today!</h2>
+                        </div>
+                        <div class="app-scan">
+                            <p>Scan the QR code to get the app now</p>
+                           
+                        </div>
+                        <div class="app-scan">
+                            
+                            <img alt="scan-image" src="image/scan-img.png">
+                        </div>
+                        <div class="google-imgs">
+                            <a href="#">
+                                <img alt="img" src="https://developer.android.com/static/images/brand/en_app_rgb_wo_60.png">
+                            </a>
+                            <a href="#">
+                                <img alt="img" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-12">
+                    <div class="mobile-img">
+                        <img class="img-8" alt="img" src="image/mobile-img.png">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- section 9 -->
+
+<section class="faq-section-nine">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-12  mb-5">
+                <p class="section-subtitle-nine">Get Your Answer</p>
+                <h2 class="section-title-nine">
+                    Frequently Asked Questions
+                    <img class="title-svg-nine" src="data:image/svg+xml,%3csvg%20width='66'%20height='34'%20viewBox='0%200%2066%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3857_28137)'%3e%3cpath%20opacity='0.32'%20d='M49.9989%2032.8291V24.7091H41.8789V16.9091H49.9989V8.78906H57.7989V16.9091H65.9189V24.7091H57.7989V32.8291H49.9989Z'%20fill='%233B9CF6'/%3e%3cpath%20opacity='0.87'%20d='M23.3313%2033.44V22.15H12.0312V11.29H23.3313V0H34.1813V11.29H45.4713V22.15H34.1813V33.44H23.3313Z'%20fill='%230E82FD'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3857_28137'%3e%3crect%20width='65.92'%20height='33.44'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="icon">
+                </h2>
+                
+            </div>
+        </div>
+        
+        <div class="row align-items-center g-4">
+            
+            <div class="col-lg-6">
+                <div class="faq-image-container-nine">
+                    <img src="image/faq-img.png" class="faq-img-nine" alt="FAQ">
+                    <div class="happy-patients-box-nine">
+                        <span class="happy-emoji-nine">😊</span>
+                        <div>
+                            <h4>95k+</h4>
+                            <p>Happy Patients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="accordion faq-accordion-nine" id="faqAccordionNine">
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOneNine">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneNine" aria-expanded="true" aria-controls="collapseOneNine">
+                                How do I book an appointment with a doctor?
+                            </button>
+                        </h2>
+                        <div id="collapseOneNine" class="accordion-collapse collapse show" aria-labelledby="headingOneNine" data-bs-parent="#faqAccordionNine">
+                            <div class="accordion-body">
+                                Yes, simply visit our website and log in or create an account. Search for a doctor based on specialization, location, or availability & confirm your booking.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwoNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoNine" aria-expanded="false" aria-controls="collapseTwoNine">
+                                Can I request a specific doctor when booking my appointment?
+                            </button>
+                        </h2>
+                        <div id="collapseTwoNine" class="accordion-collapse collapse" aria-labelledby="headingTwoNine" data-bs-parent="#faqAccordionNine">
+                            <div class="accordion-body">
+                                Yes, you can usually request a specific doctor if they are available at your preferred time.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThreeNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeNine" aria-expanded="false" aria-controls="collapseThreeNine">
+                                What should I do if I need to cancel or reschedule my appointment?
+                            </button>
+                        </h2>
+                        <div id="collapseThreeNine" class="accordion-collapse collapse" aria-labelledby="headingThreeNine" data-bs-parent="#faqAccordionNine">
+                            <div class="accordion-body">
+                                You can cancel or reschedule your appointment through your patient portal or by contacting our office directly.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFourNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourNine" aria-expanded="false" aria-controls="collapseFourNine">
+                                What if I'm running late for my appointment?
+                            </button>
+                        </h2>
+                        <div id="collapseFourNine" class="accordion-collapse collapse" aria-labelledby="headingFourNine" data-bs-parent="#faqAccordionNine">
+                            <div class="accordion-body">
+                                Please call our office as soon as possible if you are running late. We will do our best to accommodate you.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFiveNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFiveNine" aria-expanded="false" aria-controls="collapseFiveNine">
+                                Can I book appointments for family members or dependents?
+                            </button>
+                        </h2>
+                        <div id="collapseFiveNine" class="accordion-collapse collapse" aria-labelledby="headingFiveNine" data-bs-parent="#faqAccordionNine">
+                            <div class="accordion-body">
+                                Yes, you can manage appointments for family members or dependents through your account.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+<!-- section 10 -->
+
+<section class="testimonials-section-10 py-5 bg-light">
+  <div class="container">
+    <div id="testimonialCarousel10" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active text-center">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-3">
+              <img src="image/client-01.jpg" class="rounded-circle img-fluid" alt="Client">
+            </div>
+            <div class="col-md-7 text-start">
+              <p class="text-primary fw-semibold mb-1">Testimonials</p>
+              <h3 class="fw-bold text-dark d-flex align-items-center">
+                What Our Client Says
+                <img src="data:image/svg+xml,%3csvg%20width='66'%20height='34'%20viewBox='0%200%2066%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3857_28137)'%3e%3cpath%20opacity='0.32'%20d='M49.9989%2032.8291V24.7091H41.8789V16.9091H49.9989V8.78906H57.7989V16.9091H65.9189V24.7091H57.7989V32.8291H49.9989Z'%20fill='%233B9CF6'/%3e%3cpath%20opacity='0.87'%20d='M23.3313%2033.44V22.15H12.0312V11.29H23.3313V0H34.1813V11.29H45.4713V22.15H34.1813V33.44H23.3313Z'%20fill='%230E82FD'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3857_28137'%3e%3crect%20width='65.92'%20height='33.44'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="svg" class="ms-2" style="height: 25px;">
+              </h3>
+              <p class="mt-3 text-secondary">Doccure exceeded my expectations in healthcare. The seamless booking process, coupled with the expertise of the doctors, made my experience exceptional. Their commitment to quality care and convenience truly sets them apart. I highly recommend Doccure for anyone seeking reliable and accessible healthcare services.</p>
+              <p class="fw-bold mb-0">John Doe</p>
+              <small class="text-muted">New York</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item text-center">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-3">
+              <img src="image/client-11.jpg" class="rounded-circle img-fluid" alt="Client">
+            </div>
+            <div class="col-md-7 text-start">
+              <p class="text-primary fw-semibold mb-1">Testimonials</p>
+              <h3 class="fw-bold text-dark d-flex align-items-center">
+                What Our Client Says
+                <img src="data:image/svg+xml,%3csvg%20width='66'%20height='34'%20viewBox='0%200%2066%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3857_28137)'%3e%3cpath%20opacity='0.32'%20d='M49.9989%2032.8291V24.7091H41.8789V16.9091H49.9989V8.78906H57.7989V16.9091H65.9189V24.7091H57.7989V32.8291H49.9989Z'%20fill='%233B9CF6'/%3e%3cpath%20opacity='0.87'%20d='M23.3313%2033.44V22.15H12.0312V11.29H23.3313V0H34.1813V11.29H45.4713V22.15H34.1813V33.44H23.3313Z'%20fill='%230E82FD'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3857_28137'%3e%3crect%20width='65.92'%20height='33.44'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="svg" class="ms-2" style="height: 25px;">
+              </h3>
+              <p class="mt-3 text-secondary">I’m impressed with Doccure’s services! The doctors are professional, and the booking system is user-friendly. It’s refreshing to find a healthcare provider that truly cares about patients’ convenience.</p>
+              <p class="fw-bold mb-0">Emily Smith</p>
+              <small class="text-muted">California</small>
+            </div>
+          </div>
+        </div>
+
+         <div class="carousel-item text-center">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-3">
+              <img src="image/client-03.jpg" class="rounded-circle img-fluid" alt="Client">
+            </div>
+            <div class="col-md-7 text-start">
+              <p class="text-primary fw-semibold mb-1">Testimonials</p>
+              <h3 class="fw-bold text-dark d-flex align-items-center">
+                What Our Client Says
+                <img src="data:image/svg+xml,%3csvg%20width='66'%20height='34'%20viewBox='0%200%2066%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3857_28137)'%3e%3cpath%20opacity='0.32'%20d='M49.9989%2032.8291V24.7091H41.8789V16.9091H49.9989V8.78906H57.7989V16.9091H65.9189V24.7091H57.7989V32.8291H49.9989Z'%20fill='%233B9CF6'/%3e%3cpath%20opacity='0.87'%20d='M23.3313%2033.44V22.15H12.0312V11.29H23.3313V0H34.1813V11.29H45.4713V22.15H34.1813V33.44H23.3313Z'%20fill='%230E82FD'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3857_28137'%3e%3crect%20width='65.92'%20height='33.44'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="svg" class="ms-2" style="height: 25px;">
+              </h3>
+              <p class="mt-3 text-secondary">I’m impressed with Doccure’s services! The doctors are professional, and the booking system is user-friendly. It’s refreshing to find a healthcare provider that truly cares about patients’ convenience.</p>
+              <p class="fw-bold mb-0">Emily Smith</p>
+              <small class="text-muted">California</small>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel10" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel10" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<!-- section 11 -->
+
+<section class="partners-section-eleven">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 class="section-title-eleven">
+                    Our Partners
+                    <img class="title-svg-eleven" src="data:image/svg+xml,%3csvg%20width='66'%20height='34'%20viewBox='0%200%2066%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3857_28137)'%3e%3cpath%20opacity='0.32'%20d='M49.9989%2032.8291V24.7091H41.8789V16.9091H49.9989V8.78906H57.7989V16.9091H65.9189V24.7091H57.7989V32.8291H49.9989Z'%20fill='%233B9CF6'/%3e%3cpath%20opacity='0.87'%20d='M23.3313%2033.44V22.15H12.0312V11.29H23.3313V0H34.1813V11.29H45.4713V22.15H34.1813V33.44H23.3313Z'%20fill='%230E82FD'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3857_28137'%3e%3crect%20width='65.92'%20height='33.44'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="icon">
+                </h2>
+            </div>
+        </div>
+
+        <div id="partnersCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <div class="row justify-content-center g-4">
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="partner-logo-eleven">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/partners/partners-1.svg" alt="FeatherDev">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="partner-logo-eleven">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/partners/partners-2.svg" alt="Lightbox">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="partner-logo-eleven">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/partners/partners-3.svg" alt="Nietzsche">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="partner-logo-eleven">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/partners/partners-4.svg" alt="Boltshift">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="partner-logo-eleven">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/partners/partners-5.svg" alt="GlobalBank">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="partner-logo-eleven">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/partners/partners-6.svg" alt="Spherule">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row justify-content-center g-4">
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="partner-logo-eleven">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/partners/partners-1.svg" alt="FeatherDev">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="partner-logo-eleven">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/partners/partners-2.svg" alt="Lightbox">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="partner-logo-eleven">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/partners/partners-3.svg" alt="Nietzsche">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="partner-logo-eleven">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/partners/partners-4.svg" alt="Boltshift">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="partner-logo-eleven">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/partners/partners-5.svg" alt="GlobalBank">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6">
+                            <div class="partner-logo-eleven">
+                                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/partners/partners-6.svg" alt="Spherule">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+        
+    </div>
+</section>
+
+<!-- footer -->
+
+<footer class="footer-section-footer">
+    <div class="main-footer-footer">
+        <div class="container">
+            <div class="row g-4">
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget-footer">
+                        <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/logo.svg" alt="Doccure Logo" class="header-logo">
+                        <p class="footer-text-footer">Effortlessly schedule your medical appointments with Doccure. Connect with healthcare professionals, manage appointments & prioritize your well being.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-widget-footer">
+                        <h5 class="footer-title-footer">Company</h5>
+                        <ul class="footer-links-footer">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Specialities</a></li>
+                            <li><a href="#">Video Consult</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-widget-footer">
+                        <h5 class="footer-title-footer">Specialities</h5>
+                        <ul class="footer-links-footer">
+                            <li><a href="#">Neurology</a></li>
+                            <li><a href="#">Cardiologist</a></li>
+                            <li><a href="#">Dentist</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-widget-footer">
+                        <h5 class="footer-title-footer">Contact Us</h5>
+                        <ul class="footer-contact-footer">
+                            <li><i class="fas fa-map-marker-alt"></i> 3556 Beech Street, USA</li>
+                            <li><i class="fas fa-phone-alt"></i> +1 315 369 5943</li>
+                            <li><i class="fas fa-envelope"></i> doccure@example.com</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget-footer">
+                        <h5 class="footer-title-footer">Join Our Newsletter</h5>
+                        <form class="footer-newsletter-form-footer input-group">
+                            <input type="email" class="form-control" placeholder="Enter Email">
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                        </form>
+                        <div class="social-icons-footer">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="sub-footer-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="copyright-text-footer">Copyright © 2025 Doccure. All Rights Reserved</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="legal-links-footer">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms and Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="javascript/owl.carousel.min.js"></script>
+<script src="javascript/script.js"></script>
+
+
+</body>
+</html>

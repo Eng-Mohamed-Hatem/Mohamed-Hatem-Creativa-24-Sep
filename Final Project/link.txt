@@ -1,0 +1,14 @@
+
+https://doccure.dreamstechnologies.com/react/template/home-1
+-------------------------------------
+
+https://doccure.dreamstechnologies.com/react/template/doctor/profile-setting
+----------------------------------------------------https://doccure.dreamstechnologies.com/react/template/patient/doctor-profile
+----------------------------
+
+https://doccure.dreamstechnologies.com/react/template/doctor/doctor-dashboard 
+
+
+https://github.com/tigrr/circle-progress
+
+plugin for up arrow in final project

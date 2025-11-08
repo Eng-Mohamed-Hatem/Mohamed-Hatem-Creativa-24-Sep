@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    
+   <!-- header -->
+<header class="header-section">
+    <nav class="navbar navbar-expand-lg main-navbar fixed-top">
+        <div class="container">
+            
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainMenuOffcanvas" aria-controls="mainMenuOffcanvas" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img src="https://doccure.dreamstechnologies.com/react/template/src/assets/img/logo.svg" alt="Doccure Logo" class="header-logo">
+            </div>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="mainMenuOffcanvas" aria-labelledby="mainMenuOffcanvasLabel">
+                
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="mainMenuOffcanvasLabel">DOCCURE</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                
+                <div class="offcanvas-body">
+                    
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 main-nav">
+                        
+                        <li class="nav-item has-submenu dropdown active">
+                            <a class="nav-link  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Home <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">General Home 1</a></li>
+                                <li><a class="dropdown-item active" href="#">General Home 2</a></li>
+                                <li><a class="dropdown-item" href="#">General Home 3</a></li>
+                                <li><a class="dropdown-item" href="#">General Home 4</a></li>
+                                <li><a class="dropdown-item" href="#">Cardiology</a></li>
+                                <li><a class="dropdown-item" href="#">Eyecare</a></li>
+                                <li><a class="dropdown-item" href="#">Veterinary</a></li>
+                                <li><a class="dropdown-item" href="#">Pediatric</a></li>
+                                <li><a class="dropdown-item" href="#">Fertility</a></li>
+                                <li><a class="dropdown-item" href="#">ENT</a></li>
+                                <li><a class="dropdown-item" href="#">Cosmetics</a></li>
+                                <li><a class="dropdown-item" href="#">Lab Test</a></li>
+                                <li><a class="dropdown-item" href="#">Pharmacy</a></li>
+                                <li><a class="dropdown-item" href="#">Home Care</a></li>
+                                <li><a class="dropdown-item" href="#">Dentists</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item has-submenu dropdown">
+                            <a class="nav-link  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Doctors <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Doctor-Profile.html">Doctor Profile</a></li>
+                                <li><a class="dropdown-item" href="Profile-Settings.html">Profile Settings</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item has-submenu dropdown">
+                            <a class="nav-link  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Patients <i class="fas fa-chevron-down"></i>
+                            </a>
+                             <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Patient List</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item has-submenu dropdown">
+                            <a class="nav-link  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pharmacy <i class="fas fa-chevron-down"></i>
+                            </a>
+                             <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Pharmacy Shop</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item has-submenu dropdown">
+                            <a class="nav-link  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages <i class="fas fa-chevron-down"></i>
+                            </a>
+                             <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">About Us</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item has-submenu dropdown">
+                            <a class="nav-link  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog <i class="fas fa-chevron-down"></i>
+                            </a>
+                             <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item has-submenu dropdown">
+                            <a class="nav-link  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Admin <i class="fas fa-chevron-down"></i>
+                            </a>
+                             <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Admin</a></li>
+                                <li><a class="dropdown-item" href="#">Pharmacy Admin</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <ul class="nav header-navbar">
+                        <li class="register-btn">
+                            <a class="btn btn-dark reg-btn" href="#">Register</a>
+                        </li>
+                        <li class="register-btn">
+                            <a class="btn btn-primary log-btn" href="#">Login</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- section 1 breadcrumb -->
+
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row align-items-center inner-banner">
+            <div class="col-md-12 col-12 text-center">
+                <nav aria-label="breadcrumb" class="page-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="#"><i class="fas fa-home"></i></a>
+                        </li>
+                        <li class="breadcrumb-item" aria-current="page">Patient</li>
+                        <li class="breadcrumb-item active">Doctor Profile</li>
+                    </ol>
+                    <h2 class="breadcrumb-title">Profile Settings</h2>
+                </nav>
+            </div>
+        </div>
+        <div class="breadcrumb-bg">
+            <img class="breadcrumb-bg-01" alt="img" src="https://doccure.dreamstechnologies.com/html/template/assets/img/bg/breadcrumb-bg-01.png">
+            <img class="breadcrumb-bg-02" alt="img" src="https://doccure.dreamstechnologies.com/html/template/assets/img/bg/breadcrumb-bg-02.png">
+        </div>
+    </div>
+</div>
+
+<!-- sidebar -->
+ <div class="container">
+    <div class="row">
+
+        <div class="col-lg-4 col-xl-3">
+            <div class="profile-sidebar doctor-sidebar profile-sidebar-new">
+                <div class="widget-profile pro-widget-content">
+                    <div class="profile-info-widget">
+                        <a class="booking-doc-img" href="#">
+                            <img alt="User Image" src="https://doccure.dreamstechnologies.com/react/template/assets/doctor-thumb-02-Cbbh6L4C.jpg">
+                        </a>
+                        <div class="profile-det-info">
+                            <h3><a href="#">Dr Edalin Hendry</a></h3>
+                            <div class="patient-details">
+                                <h5 class="mb-0">BDS, MDS - Oral &amp; Maxillofacial Surgery</h5>
+                            </div>
+                            <span class="badge doctor-role-badge">
+                                <i class="fas fa-circle"></i> Dentist
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="doctor-available-head">
+                    <div class="">
+                        <label class="form-label">Availability <span class="text-danger">*</span></label>
+                        <select class="form-select">
+                            <option>I am Available Now</option>
+                            <option>I am Not Available</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="dashboard-widget">
+                    <nav class="dashboard-menu">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-th-large me-2"></i><span>Dashboard</span></a></li>
+                            <li><a href="#"><i class="fas fa-clipboard-list me-2"></i><span>Requests</span><small class="unread-msg">2</small></a></li>
+                            <li><a href="#"><i class="fas fa-calendar-check me-2"></i><span>Appointments</span></a></li>
+                            <li><a href="#"><i class="fas fa-calendar-alt me-2"></i><span>Available Timings</span></a></li>
+                            <li><a href="#"><i class="fas fa-user-injured me-2"></i><span>My Patients</span></a></li>
+                            <li><a href="#"><i class="fas fa-clock me-2"></i><span>Specialties &amp; Services</span></a></li>
+                            <li><a href="#"><i class="fas fa-star me-2"></i><span>Reviews</span></a></li>
+                            <li><a href="#"><i class="fas fa-user-circle me-2"></i><span>Accounts</span></a></li>
+                            <li><a href="#"><i class="fas fa-file-invoice me-2"></i><span>Invoices</span></a></li>
+                            <li><a href="#"><i class="fas fa-money-bill-alt me-2"></i><span>Payout Settings</span></a></li>
+                            <li><a href="#"><i class="fas fa-comments me-2"></i><span>Message</span><small class="unread-msg">7</small></a></li>
+                            <li class="active"><a href="#"><i class="fas fa-cog me-2"></i><span>Profile Settings</span></a></li>
+                            <li><a href="#"><i class="fas fa-share-alt me-2"></i><span>Social Media</span></a></li>
+                            <li><a href="#"><i class="fas fa-key me-2"></i><span>Change Password</span></a></li>
+                            <li><a href="#"><i class="fas fa-sign-out-alt me-2"></i><span>Logout</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-xl-9">
+            <div class="dashboard-header">
+                <h3>Profile Settings</h3>
+            </div>
+
+            <div class="setting-tab-wrapper">
+                <div class="setting-tab">
+                    <div class="appointment-tabs">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" data-bs-toggle="tab" href="#basic_details" role="tab" aria-selected="true">Basic Details</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" data-bs-toggle="tab" href="#experience" role="tab" aria-selected="false">Experience</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" data-bs-toggle="tab" href="#education" role="tab" aria-selected="false">Education</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" data-bs-toggle="tab" href="#awards" role="tab" aria-selected="false">Awards</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" data-bs-toggle="tab" href="#insurances" role="tab" aria-selected="false">Insurances</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" data-bs-toggle="tab" href="#clinics" role="tab" aria-selected="false">Clinics</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" data-bs-toggle="tab" href="#business_hours" role="tab" aria-selected="false">Business Hours</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content">
+
+                <div class="tab-pane fade active show" id="basic_details" role="tabpanel">
+                    <div class="setting-title">
+                        <h5>Profile</h5>
+                    </div>
+                    <form>
+                        <div class="setting-card">
+                            <div class="change-avatar img-upload">
+                                <div class="profile-img">
+                                    <i class="fas fa-file-image"></i>
+                                </div>
+                                <div class="upload-img">
+                                    <h5>Profile Image</h5>
+                                    <div class="imgs-load d-flex align-items-center">
+                                        <div class="change-photo">
+                                            Upload New
+                                            <input class="upload" type="file">
+                                        </div>
+                                        <a class="upload-remove" href="#">Remove</a>
+                                    </div>
+                                    <p class="form-text">Your Image should Below 4 MB, Accepted format jpg,png,svg</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="setting-title">
+                            <h5>Information</h5>
+                        </div>
+
+                        <div class="setting-card">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="form-wrap">
+                                        <label class="form-label">First Name <span class="text-danger">*</span></label>
+                                        <input class="form-control" type="text" id="firstNameInput">
+                                        <div id="firstNameError" class="text-danger mt-1" style="font-size: 0.8rem;"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="form-wrap">
+                                        <label class="form-label">Last Name <span class="text-danger">*</span></label>
+                                        <input class="form-control" type="text" id="lastNameInput">
+                                        <div id="lastNameError" class="text-danger mt-1" style="font-size: 0.8rem;"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="form-wrap">
+                                        <label class="form-label">Display Name <span class="text-danger">*</span></label>
+                                        <input class="form-control" type="text" id="displayNameInput">
+                                        <div id="displayNameError" class="text-danger mt-1" style="font-size: 0.8rem;"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="form-wrap">
+                                        <label class="form-label">Designation <span class="text-danger">*</span></label>
+                                        <input class="form-control" type="text" id="designationInput">
+                                        <div id="designationError" class="text-danger mt-1" style="font-size: 0.8rem;"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="form-wrap">
+                                        <label class="form-label">Phone Numbers <span class="text-danger">*</span></label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="form-wrap">
+                                        <label class="form-label">Email Address <span class="text-danger">*</span></label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-wrap">
+                                        <label class="form-label">Known Languages <span class="text-danger">*</span></label>
+                                        <div class="known-languages-tags">
+                                            <span class="badge bg-light text-dark">English <i class="fas fa-times"></i></span>
+                                            <span class="badge bg-light text-dark">German <i class="fas fa-times"></i></span>
+                                            <span class="badge bg-light text-dark">Portugese <i class="fas fa-times"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="setting-title">
+                            <h5>Memberships</h5>
+                        </div>
+
+                        <div class="setting-card">
+                            <div class="add-info membership-infos">
+                                <div class="row membership-content align-items-end">
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="form-wrap">
+                                            <label class="form-label">Title <span class="text-danger">*</span></label>
+                                            <input class="form-control" placeholder="Add Title" type="text" value="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 col-md-6">
+                                        <div class="d-flex align-items-end">
+                                            <div class="form-wrap w-100">
+                                                <label class="form-label">About Membership</label>
+                                                <input class="form-control" type="text" value="">
+                                            </div>
+                                            <div class="form-wrap ms-2">
+                                                <a class="trash-icon trash" href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-end">
+                                <a class="add-membership-info more-item" href="#">Add New</a>
+                            </div>
+                        </div>
+
+                        <div class="modal-btn text-end">
+                            <a class="btn btn-gray" href="#">Cancel</a>
+                            <button type="submit" class="btn btn-primary prime-btn">Save Changes</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="tab-pane fade" id="experience" role="tabpanel">
+                    <div class="setting-card">
+                        <div class="setting-title">
+                            <h5>Experience</h5>
+                        </div>
+                        <p>This is the Experience content area. You can add your experience form here.</p>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="education" role="tabpanel">
+                    <div class="setting-card">
+                        <!-- <div class="setting-title">
+                            <h5>Education</h5>
+                        </div>
+                        <p>This is the Education content area. </p>
+                    </div> -->
+                </div>
+
+                <div class="tab-pane fade" id="awards" role="tabpanel">
+                    <div class="setting-card">
+                        <div class="setting-title">
+                            <h5>Awards</h5>
+                        </div>
+                        <p>This is the Awards content area. You can add your awards form here.</p>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="insurances" role="tabpanel">
+                    <div class="setting-card">
+                        <div class="setting-title">
+                            <h5>Insurances</h5>
+                        </div>
+                        <p>This is the Insurances content area. You can add your insurances form here.</p>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="clinics" role="tabpanel">
+                    <div class="setting-card">
+                        <div class="setting-title">
+                            <h5>Clinics</h5>
+                        </div>
+                        <p>This is the Clinics content area. You can add your clinics form here.</p>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="business_hours" role="tabpanel">
+                    <div class="setting-card">
+                        <div class="setting-title">
+                            <h5>Business Hours</h5>
+                        </div>
+                        <p>This is the Business Hours content area. You can add your hours form here.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- footer -->
+
+<footer class="footer inner-footer footer-info">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-6">
+                            <div class="footer-widget footer-menu">
+                                <h6 class="footer-title">Company</h6>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Features</a></li>
+                                    <li><a href="#">Works</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Locations</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-6">
+                            <div class="footer-widget footer-menu">
+                                <h6 class="footer-title">Treatments</h6>
+                                <ul>
+                                    <li><a href="#">Dental</a></li>
+                                    <li><a href="#">Cardiac</a></li>
+                                    <li><a href="#">Spinal Cord</a></li>
+                                    <li><a href="#">Hair Growth</a></li>
+                                    <li><a href="#">Anemia &amp; Disorder</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-6">
+                            <div class="footer-widget footer-menu">
+                                <h6 class="footer-title">Specialities</h6>
+                                <ul>
+                                    <li><a href="#">Transplant</a></li>
+                                    <li><a href="#">Cardiologist</a></li>
+                                    <li><a href="#">Oncology</a></li>
+                                    <li><a href="#">Pediatrics</a></li>
+                                    <li><a href="#">Gynacology</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-6">
+                            <div class="footer-widget footer-menu">
+                                <h6 class="footer-title">Utilites</h6>
+                                <ul>
+                                    <li><a href="#">Pricing</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Request A Quote</a></li>
+                                    <li><a href="#">Premium Membership</a></li>
+                                    <li><a href="#">Integrations</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer-widget">
+                        <h6 class="footer-title">Newsletter</h6>
+                        <p class="mb-2">Subscribe &amp; Stay Updated from the Doccure</p>
+                        <div class="subscribe-input">
+                            <form action="#" class="input-group">
+                                <input class="form-control" placeholder="Enter Email Address" type="email">
+                                <button type="submit" class="btn btn-primary-gradient">
+                                    <i class="fas fa-paper-plane me-1"></i> Send
+                                </button>
+                            </form>
+                        </div>
+                        <div class="social-icon">
+                            <h6 class="mb-3">Connect With Us</h6>
+                            <ul class="d-flex">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="copyright">
+                <div class="copyright-text">
+                    <p class="mb-0">Copyright © 2025 Doccure. All Rights Reserved</p>
+                </div>
+                <div class="copyright-menu">
+                    <ul class="policy-menu">
+                        <li><a href="#">Legal Notice</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <ul class="payment-method">
+                    <li><a href="#"><i class="fab fa-cc-visa"></i></a></li>
+                    <li><a href="#"><i class="fab fa-cc-mastercard"></i></a></li>
+                    <li><a href="#"><i class="fab fa-cc-paypal"></i></a></li>
+                    <li><a href="#"><i class="fab fa-cc-amex"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+<script src="javascript/script.js"></script>
+</body>
+</html>
